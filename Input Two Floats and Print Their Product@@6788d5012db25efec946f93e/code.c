@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum;
+    int num1, num2, product;
     scanf("%f %f",&num1,&num2);
-    sum=num1+num2;
-    printf("Sum: %.2f", sum);
+    product=num1+num2;
+    printf("Product: %.2f", product);
     return 0;
 }
