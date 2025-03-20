@@ -9,6 +9,11 @@ int main() {
     } else {
         printf("False\n");
     }
+    if (a < b) {  // Check if a is less than b
+    printf("True\n");
+} else {
+    printf("False\n");
+}
 
     return 0;
 }
