@@ -6,7 +6,7 @@ int main() {
 
     for (int i = 1; i <= n; i++) { // Loop from 1 to n (including n)
         printf("%d", i);
-        if (i == n) { // Print space only if it's not the last number
+        if (i <= n) { // Print space only if it's not the last number
             printf(" ");
         }
     }
