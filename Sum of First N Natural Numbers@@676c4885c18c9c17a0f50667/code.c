@@ -8,7 +8,7 @@ int main() {
         sum += i; // Adding numbers from 1 to n
     }
 
-    printf("Sum: %d\n", sum); // Print the result
+    printf("%d\n", sum); // Print the result
 
     return 0;
 }
